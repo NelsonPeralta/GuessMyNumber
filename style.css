@@ -35,3 +35,68 @@ header h2{
   justify-content: center;
   padding-top: 1rem;
 }
+
+.answer-block{
+  display: flex;
+  justify-content: center;
+}
+
+.answer{
+  background-color: white;
+  color: #222;
+  font-size: 4rem;
+  margin-top: 2rem;
+  padding: 2rem 3rem;
+}
+
+/*Game Display*/
+.game{
+  display: flex;
+  justify-content:space-around;
+  padding-top: 5rem;
+}
+
+.game-ui{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  align-items: center;
+  /*align-items: Must be paired with display: flex. By default, flex direction is row. If it is row, align-items will compress paddings that are vertical. In this case, since the flex-direction is column, it will compress horizontal padding which will work with the default padding of buttons*/
+}
+
+.game-guess{
+  height: 2rem;
+  text-align: center;
+  font-family: inherit;
+  font-size: 3rem;
+  width: 12rem;
+  background-color: inherit;
+  color: white;
+  border: solid white 4px;
+  padding: 2rem;
+}
+
+.game-button{
+  margin-top: 2rem;
+  padding:1rem 2rem;
+  font-family: inherit;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.game-button:hover{
+background-color: gray;
+}
+
+.game-scoreboard{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  font-size: 1.5rem;
+}
+
+.game-message{
+ padding-bottom: 5rem;
+}

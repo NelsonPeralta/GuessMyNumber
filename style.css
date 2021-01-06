@@ -38,7 +38,7 @@ header h2{
 
 .answer-block{
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .answer{
@@ -46,8 +46,9 @@ header h2{
   color: #222;
   font-size: 4rem;
   margin-top: 2rem;
-  padding: 2rem 3rem;
+  padding: 2rem 0;
   text-align: center;
+  width: 10rem;
 }
 
 /*Game Display*/
